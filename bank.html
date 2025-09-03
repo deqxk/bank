@@ -1,28 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles/bank.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monetra Bank</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/bank.css">
 </head>
 <body>
-    <header class="header">
-        <div class="left-header">
-            <img src="images/batman.png" alt="bank" class="bank">
-            <span class="name">Monetra</span>
+  <!-- Header -->
+  <header class="header">
+    <div class="left-header">
+      <img src="images/batman.png" alt="bank" class="bank">
+      <span class="name">Monetra</span>
+    </div>
+    <div class="right-header">
+      <a href="#">
+        <i class="fa-solid fa-user icon"></i>
+      </a>
+      <a href="login.html" class="login">Login</a>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="main">
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Welcome to Monetra Bank</h1>
+      <p>Your trusted financial partner since 2025.</p>
+      <div class="hero-buttons">
+        <button class="btn">Open Account</button>
+        <button class="btn">Learn More</button>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <i class="fa-solid fa-building-columns"></i>
+          <h3>Savings Account</h3>
+          <p>Earn up to 10% interest on your deposits.</p>
         </div>
-        <div class="right-header">
-            <a href="">
-                <i class="fa-solid fa-user icon"></i>
-            </a>
-            <a href="" class="login"><span>Login</span></a>
-            
+        <div class="card">
+          <i class="fa-solid fa-credit-card"></i>
+          <h3>Credit Cards</h3>
+          <p>Unlimited spending power with zero fees.</p>
         </div>
-    </header>
+        <div class="card">
+          <i class="fa-solid fa-piggy-bank"></i>
+          <h3>Loans</h3>
+          <p>Instant approval on home, car & personal loans.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+      <h2>Why Choose Us?</h2>
+      <p>
+        At Monetra, we combine security, trust, and innovation to give you a truly modern banking experience.
+      </p>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2>What Our Clients Say</h2>
+      <blockquote>
+        "Monetra made me a millionaire overnight… well, at least in my dreams!"  
+        <br><span>- John Doe</span>
+      </blockquote>
+      <blockquote>
+        "Best bank I’ve ever used for practice projects. Looks so real!"  
+        <br><span>- Jane Smith</span>
+      </blockquote>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-box">
+        <h3>About Us</h3>
+        <p>We are a practice company providing services since 2025.</p>
+      </div>
+
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <a href="#">📞 +91 12345 67890</a>
+        <a href="#">✉️ support@monetra.com</a>
+        <a href="#">🏠 123 Fake Street, Imaginary City</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Quick Links</h3>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Follow Us</h3>
+        <a href="#">🌐 Facebook</a>
+        <a href="#">🌐 Twitter</a>
+        <a href="#">🌐 Instagram</a>
+        <a href="#">🌐 LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © 2025 Monetra Bank. All rights reserved.
+    </div>
+  </footer>
 </body>
 </html>
