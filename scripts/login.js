@@ -43,5 +43,5 @@ document.querySelector('.sign-button').addEventListener
         username = document.querySelector('.sign-username-js').value;
         password = document.querySelector('.sign-password-js').value;
         user.push({"username": username,"password":password})
-        console.log(user);
+        window.alert("YOUR ACCOUNT IS CREATRED YOU CAN LOGIN NOW")
     });
