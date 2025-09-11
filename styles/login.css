@@ -125,3 +125,11 @@ form {
     transform: translateY(0);
   }
 }
+
+/* SIGN UP  */
+.sign-container , .login-container{
+  display: none;
+}
+.active{
+  display: block;
+}

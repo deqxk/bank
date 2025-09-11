@@ -30,11 +30,41 @@
       <h1>Welcome to Monetra Bank</h1>
       <p>Your trusted financial partner since 2025.</p>
       <div class="hero-buttons">
-        <button class="btn">Open Account</button>
-        <button class="btn">Learn More</button>
+        <button class="btn withdraw-button-js">Withdraw</button>
+        <button class="btn deposit-button-js">Deposit</button>
       </div>
     </section>
-
+    <!-- FUCNTION -->
+     <div class="overaly-first">
+      <div class="popup-one">
+          <h1 class="deposit-title">Withdraw the Money</h1>
+        <div class="input-box">
+            <input type="text" placeholder="Account Holder Name">
+            <input type="text" placeholder="Transfer To Name">
+            <input type="text" placeholder="Enter Amount">
+        </div>
+        <div class="button-div">
+          <button>Deposit</button>
+          <button class="close-btn">Close</button>
+      </div>
+        </div>
+     </div>
+     <div class="overaly-second">
+        <div class="popup-two">
+        
+        <h1 class="deposit-title">Deposit the Money</h1>
+        <div class="input-box">
+            <input type="text" placeholder="Account Holder Name">
+            <input type="text" placeholder="Transfer To Name">
+            <input type="text" placeholder="Enter Amount">
+        </div>
+        <div class="button-div">
+          <button>Deposit</button>
+          <button class="close-btn">Close</button>
+      </div>
+        
+  </div>
+     </div>
     <!-- Services -->
     <section class="services">
       <h2>Our Services</h2>
@@ -115,5 +145,6 @@
       © 2025 Monetra Bank. All rights reserved.
     </div>
   </footer>
+  <script src="scripts/bank.js" type="module"></script>
 </body>
 </html>

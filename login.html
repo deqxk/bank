@@ -9,7 +9,8 @@
   <title>Login - Monetra Bank</title>
 </head>
 <body>
-  <div class="container">
+  <!-- LOGIN PAGE -->
+  <div class="container login-container  active">
     <div class="icon">
       <i class="fas fa-dragon"></i>
     </div>
@@ -29,7 +30,31 @@
     </form>
 
     <p class="extra">
-      Don’t have an account? <a href="#">Sign Up</a>
+      Don’t have an account? <a href="#" class="sign-button">Sign Up</a>
+    </p>
+  </div>
+  <!-- SIGN_UP PAGE  -->
+   <div class="container sign-container">
+    <div class="icon">
+      <i class="fas fa-dragon"></i>
+    </div>
+    <h2 class="title">Welcome</h2>
+    <p class="subtitle">Create your account</p>
+
+    <form action="">
+      <div class="input-group">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Username" required class="sign-username-js" />
+      </div>
+      <div class="input-group">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Password" required class="sign-password-js"/>
+      </div>
+      <button class="login sign-js">Sign Up</button>
+    </form>
+
+    <p class="extra">
+      Already have an account? <a href="#" class="login-button">Login</a>
     </p>
   </div>
   <script src="scripts/login.js" type="module"></script>
