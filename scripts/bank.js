@@ -57,3 +57,33 @@ document.querySelector('.user-button').addEventListener('click',()=>{
            const dashboard = document.querySelector('.dashboard-box');
            dashboard.classList.remove('show');
         });
+        let money = 5000;
+        let withinput = document.querySelector('.withdraw-input');
+        let WithdrawInput = (withinput.value);
+        document.querySelector('.wid-butt').addEventListener('click',()=>{
+            const para =document.querySelector('.withdraw-trans');
+            const inputdet = Number(inputUser('withdraw-input'));
+            if (money < inputdet){
+                para.innerHTML = `Transcation:  Your amount is higher the your bank balance :$${money}`;
+            }
+            else {
+                money -= inputdet;
+                para.innerHTML = `Transcation: $${inputdet} Debited from Account Bal Remain $${money}`;
+            }
+            
+        });
+        document.querySelector('.dep-butt').addEventListener('click',()=>{
+            const para =document.querySelector('.deposit-trans');
+            const inputdet = Number(inputUser('deposit-input'));
+                money += inputdet;
+                para.innerHTML = `Transcation: $${inputdet} Credited from Account Bal is $${money}`
+
+            
+        });
+        function inputUser(link){
+            let withinput = document.querySelector(`.${link}`);
+            let WithdrawInput = (withinput.value);
+           return WithdrawInput;
+            
+        };
+        console.log(money)        
