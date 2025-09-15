@@ -15,7 +15,7 @@ log.addEventListener('click',(e)=>{
             break;
         }}
         if(isvalid){
-            window.location.href = "bank.html";
+            window.location.href = "index.html";
         }
         else{
             alert("Invalid username or password!");
